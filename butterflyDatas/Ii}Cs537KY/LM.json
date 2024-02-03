@@ -1,0 +1,8 @@
+{
+    "What do you name?":{
+        "my name is {name}.":10,
+        "Sorry. **** you.":1},
+    "What do you like?":{
+        "I like {like}.":10,
+        "Sorry. **** you.":1}
+}

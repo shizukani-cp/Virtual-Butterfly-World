@@ -1,0 +1,10 @@
+{
+    "name":"bob",
+    "like":[""],
+    "characters":[],
+    "location":{"x":100, "y":100},
+    "vectol":{"x":10, "y":10},
+    "direction":"right",
+    "positional":{},
+    "LM":"LM.json"
+}
