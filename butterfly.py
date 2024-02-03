@@ -22,7 +22,7 @@ class Butterfly:
                       [os.path.basename(p)[:list(p).index(".")] for p in glob.glob("butterflyDatas/" + dir + "*.png")]}
         with open("butterflyDatas/" + dir + components["LM"], "r", encoding=ENCODE) as f1:
             with open("allLM.json", "r", encoding=ENCODE) as f2:
-                LM = json.loads(f1.read()).update(f2.rad())
+                LM = json.loads(f1.read()).update(f2.read())
                 self.LM = self.LM_split(LM)
         
 
